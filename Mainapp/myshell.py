@@ -20,5 +20,7 @@ print(t.text)
 print(t.date_added)
 
 
+entries=t.entry_set.all()
+
 
 
